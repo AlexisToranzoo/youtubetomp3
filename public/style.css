@@ -1,0 +1,46 @@
+.vidrio{
+background: rgba(132, 164, 158, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.7px);
+-webkit-backdrop-filter: blur(8.7px);
+border: 1px solid rgba(132, 164, 158, 0.68);
+margin: auto;
+width: 60%;
+text-align: center;
+margin-top: 3rem;
+}
+body{
+    background-image: radial-gradient(#ababab 20%, transparent 20%), radial-gradient(#fafafa 20%, transparent 20%);
+    background-color: #709dd8;
+    background-position: 0 0, 120px 50px;
+    background-size: 60vw 60vw;
+}
+.URL-input{
+    width: 100%;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+#contacto{
+    position: relative;
+    top: 35vh;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.662);
+}
+.loader {
+    
+    margin: auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
